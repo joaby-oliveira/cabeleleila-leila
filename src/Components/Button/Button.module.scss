@@ -1,0 +1,26 @@
+@import "../../utilities/variables";
+
+.button {
+  &:hover {
+    transform: scale(1.1);
+  }
+  margin-right: 2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.littleSize {
+  padding: 1rem 2rem;
+}
+.bigSize {
+  padding: 2rem 4rem;
+  font-size: 1.5rem;
+}
+.primaryColor {
+  border: 2px solid $primary-3;
+  color: $primary-3;
+}
+.secondaryColor {
+  border: 2px solid $dark-3;
+  color: $dark-3;
+}
