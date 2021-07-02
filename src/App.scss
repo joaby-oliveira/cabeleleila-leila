@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+// Reset css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, button, a, li {
+  font-family: 'Noto Serif';
+  font-size: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.mainCenter {
+  justify-content: center;
+}
+
+.crossCenter {
+  align-items: center;
+}
+
+.crossStart {
+  align-items: flex-start;
+}
+
+.mainBetween {
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
