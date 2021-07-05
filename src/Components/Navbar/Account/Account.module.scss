@@ -1,18 +1,18 @@
 @import "../../../utilities/variables";
 
 .account {
-  background: #eee;
+  border: 2px solid $dark-1;
   padding: 0 1rem;
   transition: 0.2s;
 }
 
 .account:hover {
-  background: #ddd;
+  background: #f0f0f0;
 }
 
 .signUp {
   margin-right: 1rem;
-  color: $dark-3;
+  color: $dark-1;
   font-weight: 700;
   text-decoration: underline;
 }

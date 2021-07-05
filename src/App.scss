@@ -40,3 +40,16 @@ p, button, a, li {
 a {
   text-decoration: none;
 }
+
+.animateToRight {
+  opacity: 0;
+  transform: translate(-50px);
+  animation: animateToRight 0.2s forwards;
+}
+
+@keyframes animateToRight {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
