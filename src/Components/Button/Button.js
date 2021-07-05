@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './Button.module.scss'
+import { Link } from 'react-router-dom'
 const Button = (props) => {
   const { littleSize, primaryColor, path } = props
   return (
-    <a href={path} className={`${styles.button} ${primaryColor ? styles.primaryColor : styles.secondaryColor} ${littleSize ? styles.littleSize : styles.bigSize}`}>
+    <Link to={path} className={`${styles.button} ${primaryColor ? styles.primaryColor : styles.secondaryColor} ${littleSize ? styles.littleSize : styles.bigSize}`}>
       {props.children}
-    </a>
+    </Link>
   )
 }
 
